@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "D8C6A7EE121DD80A1132000AFFE32640",
+  "keywordClasses": [
+    {
+      "name": "com.qa.test.customkeyword",
+      "keywordMethods": [
+        {
+          "name": "printHello",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "printName",
+          "parameters": [
+            {
+              "name": "name",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
