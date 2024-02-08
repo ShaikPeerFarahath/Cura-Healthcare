@@ -21,26 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/TC_Cura_Home_Launch_001/Page_CURA Healthcare Service/h1_CURA Healthcare Service'))
 
-WebUI.setText(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/TC_Cura_Home_Launch_001/Page_CURA Healthcare Service/h3_We Care About Your Health'))
 
-WebUI.setText(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/input_password'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Hongkong CURA Healthcare Center', true)
-
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/label_Medicaid'))
-
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
-
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/td_15'))
-
-WebUI.setText(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/textarea_comment'), 'General Checkup')
-
-WebUI.click(findTestObject('Object Repository/MakeApoinment_OR/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('Object Repository/TC_Cura_Home_Launch_001/Page_CURA Healthcare Service/a_Make Appointment'))
 
 WebUI.closeBrowser()
 
